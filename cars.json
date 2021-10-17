@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "images": [
+      "../images/bmw/BMW-M3-1.jpg",
+      "../images/bmw/BMW-M3-2.jpg",
+      "../images/bmw/BMW-M3-3.jpg",
+      "../images/bmw/BMW-M3-4.jpg"
+    ],
+    "make": "BMW",
+    "model": "M3 Competition",
+    "type": "Used vehicle",
+    "color": "blue",
+    "year": 2018,
+    "mileage": 85000,
+    "fuel": "petrol",
+    "gearbox": "SMG-Automatic",
+    "doors": 3,
+    "seats": 4,
+    "engineSize": "3000cc",
+    "horsePower": 525,
+    "price": 75000
+  },
+  {
+    "id": 2,
+    "images": [
+      "../images/vw/Passat-GTE-1.jpg",
+      "../images/vw/Passat-GTE-2.jpg",
+      "../images/vw/Passat-GTE-3.jpg",
+      "../images/vw/Passat-GTE-4.jpg"
+    ],
+    "make": "VW",
+    "model": "Passat GTE",
+    "type": "Used vehicle",
+    "color": "whitesmoke",
+    "year": 2020,
+    "mileage": 85000,
+    "fuel": "petrol",
+    "gearbox": "DSG-Automatic",
+    "doors": 4,
+    "seats": 5,
+    "engineSize": "2000cc",
+    "horsePower": 272,
+    "price": 48000
+  },
+  {
+    "id": 3,
+    "images": [
+      "../images/mitsubishi/Mitsubishi-Lancer-1.jpg",
+      "../images/mitsubishi/Mitsubishi-Lancer-2.jpg",
+      "../images/mitsubishi/Mitsubishi-Lancer-3.jpg",
+      "../images/mitsubishi/Mitsubishi-Lancer-4.jpg"
+    ],
+    "make": "Mitsubishi",
+    "model": "Lancer Evo Final Edition",
+    "type": "Used vehicle",
+    "color": "white",
+    "year": 2015,
+    "mileage": 45000,
+    "fuel": "petrol",
+    "gearbox": "Manual",
+    "doors": 5,
+    "seats": 4,
+    "engineSize": "2000cc",
+    "horsePower": 247,
+    "price": 40000
+  },
+  {
+    "id": 4,
+    "images": [
+      "../images/audi/RS3-1.jpg",
+      "../images/audi/RS3-2.jpg",
+      "../images/audi/RS3-3.jpg",
+      "../images/audi/RS3-4.jpg"
+    ],
+    "make": "AUDI",
+    "model": "RS3 Sedan",
+    "type": "New vehicle",
+    "color": "green",
+    "year": 2021,
+    "mileage": 5,
+    "fuel": "petrol",
+    "gearbox": "DSG-Automatic",
+    "doors": 4,
+    "seats": 4,
+    "engineSize": "2500cc",
+    "horsePower": 400,
+    "price": 95000
+  },
+  {
+    "id": 5,
+    "images": [
+      "../images/mercedes/C63-1.jpg",
+      "../images/mercedes/C63-2.jpg",
+      "../images/mercedes/C63-3.jpg",
+      "../images/mercedes/C63-4.jpg"
+    ],
+    "make": "Mercedes",
+    "model": "C63 S AMG Coupe",
+    "type": "Used vehicle",
+    "color": "white",
+    "year": 2018,
+    "mileage": 25000,
+    "fuel": "petrol",
+    "gearbox": "Sport-Automatic",
+    "doors": 4,
+    "seats": 4,
+    "engineSize": "4000cc",
+    "horsePower": 510,
+    "price": 72000
+  },
+  {
+    "id": 6,
+    "images": [
+      "../images/toyota/Supra-1.jpg",
+      "../images/toyota/Supra-2.jpg",
+      "../images/toyota/Supra-3.jpg",
+      "../images/toyota/Supra-4.jpg"
+    ],
+    "make": "Toyota",
+    "model": "Supra",
+    "type": "New vehicle",
+    "color": "red",
+    "year": 2021,
+    "mileage": 5,
+    "fuel": "petrol",
+    "gearbox": "Manual",
+    "doors": 2,
+    "seats": 4,
+    "engineSize": "3000cc",
+    "horsePower": 335,
+    "price": 120000
+  },
+  {
+    "id": 7,
+    "images": [
+      "../images/opel/AstraOPC-1.jpg",
+      "../images/opel/AstraOPC-2.jpg",
+      "../images/opel/AstraOPC-3.jpg",
+      "../images/opel/AstraOPC-4.jpg"
+    ],
+    "make": "Opel",
+    "model": "Astra OPC Extreme",
+    "type": "Used vehicle",
+    "color": "Space Gray",
+    "year": 2015,
+    "mileage": 48000,
+    "fuel": "petrol",
+    "gearbox": "Manual",
+    "doors": 2,
+    "seats": 4,
+    "engineSize": "2000cc",
+    "horsePower": 300,
+    "price": 28000
+  },
+  {
+    "id": 8,
+    "images": [
+      "../images/landrover/RangeRover-1.jpg",
+      "../images/landrover/RangeRover-2.jpg",
+      "../images/landrover/RangeRover-3.jpg",
+      "../images/landrover/RangeRover-4.jpg"
+    ],
+    "make": "Land Rover",
+    "model": "Range Rover Velar R-Dynamic Black",
+    "type": "Used vehicle",
+    "color": "Black",
+    "year": 2020,
+    "mileage": 22000,
+    "fuel": "petrol",
+    "gearbox": "Automatic",
+    "doors": 5,
+    "seats": 5,
+    "engineSize": "3000cc",
+    "horsePower": 380,
+    "price": 74000
+  },
+  {
+    "id": 9,
+    "images": [
+      "../images/bmw/BMW-X6M-1.jpg",
+      "../images/bmw/BMW-X6M-2.jpg",
+      "../images/bmw/BMW-X6M-3.jpg",
+
+      "../images/bmw/BMW-X6M-4.jpg"
+    ],
+    "make": "BMW",
+    "model": "X6 M Competition",
+    "type": "New vehicle",
+    "color": "White",
+    "year": 2021,
+    "mileage": 5,
+    "fuel": "petrol",
+    "gearbox": "Automatic",
+    "doors": 5,
+    "seats": 5,
+    "engineSize": "4400cc",
+    "horsePower": 625,
+    "price": 147000
+  }
+]
