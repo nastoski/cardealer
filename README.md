@@ -4,14 +4,15 @@
 
 #### On the homepage in "Featured Car" section, 9 cars are listed with different makes which are exported from json file (cars.json) using http request and map method which are implemented in (home.js) and also below that section is "Car of the week" using filter method is choosen VW Passat. In contact form values from inputs are taken and on button submits the "alert" with their values. 
 
-JSON - 4 Hours: (1 hour js research), (2 hours downloading images), (1 hour JSON structure)
-Homepage - 3 hours (2 hours 30 min fetch, map, filter, 30 min js research)
-Cars.js - 20 min (fetch, map)
-Cardetails - 12 hours (11 hours 30 min thinking about dynamic routing and research with vanila js(failed), 30 min displayed only one car detail)
-
 #### On Cars page are listed same 9 cars
 
 #### On Cars Detail page is listed Audi car 
+
+#### * JSON - 4 Hours: (1 hour js research), (2 hours downloading images), (1 hour JSON structure)
+#### * Homepage - 3 hours (2 hours 30 min fetch, map, filter, 30 min js research)
+#### * Cars.js - 20 min (fetch, map)
+#### * Cardetails - 12 hours (11 hours 30 min thinking about dynamic routing and research with vanila js(failed), 30 min displayed only one car detail)
+
 
 ## TASK WAS
 
