@@ -1,17 +1,10 @@
-const fetchData = () => {
-  // FETCHING DATA LOCALY FROM JSON BY MAKING HTTP REQ
-  fetch("../cars.json")
-    .then((response) => {
-      if (!response.ok) {
-        throw Error("ERROR");
-      }
-      return response.json();
-    })
-    .then((data) => {
-      // MAPPING ALL OBJECT'S DATA
+import getData from "./fetchData.js";
 
-      data.map((item) => {
-        content = `
+const homeData = () => {
+  getData.then((data) => {
+    // MAPPING ALL OBJECT'S DATA
+    data.map((item) => {
+      let content = `
         <div class="col-lg-4 col-md-4 col-sm-6">
           <div class="courses-thumb courses-thumb-secondary">
           <div class="courses-top">
@@ -54,16 +47,16 @@ const fetchData = () => {
           </div>
           </div>
           `;
-        document
-          .querySelector("#featured-cars")
-          .insertAdjacentHTML("beforeend", content);
-      });
+      document
+        .querySelector("#featured-cars")
+        .insertAdjacentHTML("beforeend", content);
+    });
 
-      // FILTERING CAR OF THE WEEK (VW)
-      
-      const filterData = data.filter((car) => car.make === "VW");
-      for (let i = 0; i < filterData.length; i++) {
-        weeklyContent = `
+    // FILTERING CAR OF THE WEEK (VW)
+
+    const filterData = data.filter((car) => car.make === "VW");
+    for (let i = 0; i < filterData.length; i++) {
+      let weeklyContent = `
         <div class="col-md-12">
         <div class="courses-thumb courses-thumb-secondary">
         <div class="courses-top">
@@ -97,16 +90,13 @@ const fetchData = () => {
         </div>
         `;
 
-        document
-          .querySelector("#weeklyCar")
-          .insertAdjacentHTML("beforeend", weeklyContent);
-      }
-    })
-    .catch((error) => {
-      console.log(error);
-    });
+      document
+        .querySelector("#weeklyCar")
+        .insertAdjacentHTML("beforeend", weeklyContent);
+    }
+  });
 };
-fetchData();
+homeData();
 
 const fullName = document.getElementById("fullName");
 const emailAddress = document.getElementById("emailAddress");

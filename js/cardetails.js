@@ -1,16 +1,9 @@
+import getData from "./fetchData.js";
 const listDetails = () => {
-  fetch("../cars.json")
-    .then((response) => {
-      if (!response.ok) {
-        throw Error("ERROR");
-      }
-      return response.json();
-    })
-    .then((data) => {
-        
-      const filterDetail = data.filter((car) => car.make === "AUDI");
-      for (let i = 0; i < filterDetail.length; i++) {
-        details = `
+  getData.then((data) => {
+    const filterDetail = data.filter((car) => car.make === "AUDI");
+    for (let i = 0; i < filterDetail.length; i++) {
+      let details = `
         <div class="row">
           <div class="col-md-6 col-xs-12">
             <div>
@@ -147,13 +140,10 @@ const listDetails = () => {
           </div>
         </div>
     `;
-        document
-          .querySelector("#car-details")
-          .insertAdjacentHTML("afterbegin", details);
-      }
-    })
-    .catch((error) => {
-      console.log(error);
-    });
+      document
+        .querySelector("#car-details")
+        .insertAdjacentHTML("afterbegin", details);
+    }
+  });
 };
 listDetails();
